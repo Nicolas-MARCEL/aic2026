@@ -4,15 +4,11 @@
 [![DOCS](../../actions/workflows/docs.yaml/badge.svg)](../../actions/workflows/docs.yaml)
 
 # Who
-nicolas
+Nicolas MARCEL
 
 # Why
 
-<explain why you made this module>
-
-# How
-
-<explain short how you made this module>
+Integrated temperature sensor project
 
 
 # What
