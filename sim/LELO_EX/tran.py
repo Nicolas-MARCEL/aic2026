@@ -12,6 +12,10 @@ def main(name):
     obj = yaml.safe_load(fi)
 
   # Do something to parameters
+  import cicsim as cs
+  fname = name +".png"
+  print(f"Saving {fname}")
+  cs.rawplot(name + ".raw","time","v(ibps_5u),i(v0)" ,ptype="",fname=fname)
 
   # Save new yaml file
   with open(yamlfile,"w") as fo:
