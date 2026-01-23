@@ -1,32 +1,14 @@
 magic
 tech sky130A
-timestamp 1768905425
+timestamp 1768757060
 << locali >>
-rect 105 983 319 1018
-rect -48 -99 48 100
-rect 528 -99 624 88
-rect -100 -108 700 -99
-rect -100 -198 147 -108
-rect 237 -198 700 -108
-rect -100 -202 700 -198
-<< viali >>
-rect 147 -198 237 -108
+rect -48 -200 48 76
+rect 533 -200 629 3
+rect -48 -296 629 -200
+rect 299 -300 400 -296
 << metal1 >>
-rect 336 1859 575 1955
-rect 80 41 112 1688
-rect 144 -108 240 1778
-rect 479 1351 575 1859
-rect 336 1255 575 1351
-rect 479 550 575 1255
-rect 336 454 575 550
-rect 479 153 575 454
-rect 360 60 575 153
-rect 336 57 575 60
-rect 336 20 432 57
-rect 144 -198 147 -108
-rect 237 -198 240 -108
-rect 144 -204 240 -198
-use JNWATR_NCH_4C5F0  xo0<0> JNW_ATR_SKY130A
+rect -92 -64 668 2064
+use JNWATR_NCH_4C5F0  xo0<0> ../JNW_ATR_SKY130A
 timestamp 1740610800
 transform 1 0 0 0 1 0
 box -92 -64 668 464
@@ -46,13 +28,6 @@ use JNWATR_NCH_4C5F0  xo1
 timestamp 1740610800
 transform 1 0 0 0 1 800
 box -92 -64 668 464
-<< labels >>
-flabel metal1 s 144 300 240 340 0 FreeSans 200 0 0 0 VSS
-port 2 nsew ground bidirectional
-flabel metal1 s 336 20 432 60 0 FreeSans 200 0 0 0 IBPS_5U
-port 4 nsew signal bidirectional
-flabel metal1 s 80 180 112 220 0 FreeSans 200 0 0 0 IBNS_20U
-port 5 nsew signal bidirectional
 << properties >>
 string FIXED_BBOX 0 0 576 2000
 << end >>
